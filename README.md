@@ -49,6 +49,7 @@ cd chatgpt_academic
 # 建议config_private.py在别的文件夹保存一遍，方便以后ChatGPT Academic更新要作二次配置，直接复制它进入更新的版本就好
 cp config.py config_private.py
 # 用任意文本编辑器编辑 config_private.py, 配置 “API_KEY” (sk-开头的字符串码), “WEB_PORT” (例如30532) ，"AUTHENTICATION"可设置用户登录，API_URL_REDIRECT设置API中转代理。这些如何设置，config_private.py有具体的注释说明。
+# 用任意文本编辑器编辑requirements.txt,在尾后补一个库函数 pdfminer, 否则arxiv下载和分析功能可能不能正常使用。
 cd crazy_functions
 # 用任意文本编辑器编辑联网的ChatGPT.py
 # 将谷歌引擎替换，即将https://www.google.com替换为https://note.cm或其他谷歌镜像或者其他搜索引擎。
@@ -123,6 +124,7 @@ server {
 ```
 
 ## 其他
++ 欢迎就本帖进行友好交流与讨论，共同促进技术开放与进步！
 + 貌似之前的ChatGPT Academic自动提供外网访问链接，现在的版本移除了这一功能，不知道是因为速度还是为了防止API key泄露的原因。不过，由于由于自动提供的链接不是很方便人类记忆，建议使用nginx等网页服务器或cloudflare服务转发内网到外网上去。
 + ChatGPT Academic之前介绍过[huggingface](https://huggingface.co)，可以省去部署ChatGPT Academic和翻墙烦恼。不知何故，binary-husky现在移除了这一部分介绍，但是huggingface目前仍然有人在持续更新ChatGPT Academic的部署。不过，huggingface的缺点是API key需要使用前输入一次；有的用户可能忘记看提示，没有复制一份space导致API key有泄露的风险。
 + 什么？没说怎么白嫖和怎么（低成本）获取API key码？
