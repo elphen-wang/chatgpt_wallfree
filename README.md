@@ -145,3 +145,8 @@ server {
 网易：https://mirrors.163.com/pypi/simple/
 ...
 ```
+## Star History 
+<a name="star-history"></a>
+<a href="https://github.com/elphen-wang/chatgpt_wallfree/stargazerss">
+        <img width="500" alt="Star History Chart" src="https://api.star-history.com/svg?repos=elphen-wang/chatgpt_wallfree&type=Date">
+</a> 
