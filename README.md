@@ -49,7 +49,8 @@ cd chatgpt_academic
 # 建议config_private.py在别的文件夹保存一遍，方便以后ChatGPT Academic更新要作二次配置，直接复制它进入更新的版本就好
 cp config.py config_private.py
 # 用任意文本编辑器编辑 config_private.py, 配置 “API_KEY” (sk-开头的字符串码), “WEB_PORT” (例如30532) ，"AUTHENTICATION"可设置用户登录，API_URL_REDIRECT设置API中转代理。这些如何设置，config_private.py有具体的注释说明。
-# 用任意文本编辑器编辑requirements.txt,在尾后补一个库函数 pdfminer, 否则arxiv下载和分析功能可能不能正常使用。
+# 用任意文本编辑器编辑 requirements.txt,在尾后补一个库函数 pdfminer, 否则arxiv下载和分析功能可能不能正常使用。
+# 用任意文本编辑器编辑 Dockerfile， 在 RUN pip3 install -r requirements.txt后补一句RUN pip3 install --upgrade gradio， 不然有可能报gradio低的错误
 cd crazy_functions
 # 用任意文本编辑器编辑联网的ChatGPT.py
 # 将谷歌引擎替换，即将https://www.google.com替换为https://note.cm或其他谷歌镜像或者其他搜索引擎。
@@ -131,3 +132,16 @@ server {
   + 白嫖ChatPGT，github有很多用户搭建了免费体验版网站，可自行搜索。但碍于经济性的原因，用爱发电不会持久，可能需要打一枪换一个阵地。大家可以找一些研究单位或大学搭建的面向公众的ChatGPT门户，可能比较持久，但应该比较少。
   + API key现在是收费模式，且注册和缴费有一点门槛或不便，但不妨碍“拼车上路”。我觉得这是最经济且门槛最低获取API key的方式。github中已经有一些用户已经发布拼车邀请，可自行搜索。
   + 如果有一个豪（土豪的“毫”）气且义气（愿意分享API key）的朋友，那么也就没有这些烦恼了。
+## 闲聊
++ 已经发现的官网教程的bug已经在之前的部署教程中有所纠正和说明。
++ 实测发现，Dockerfile中默认的下载源（阿里云源镜像）对有些单位来说，速度不够快，大家可以根据自己情况做相应替换，以下列了一些国内常用镜像源（本人实测，清华源比阿里源要快一些）：
+```
+清华：https://pypi.tuna.tsinghua.edu.cn/simple
+阿里云：http://mirrors.aliyun.com/pypi/simple/
+中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/
+豆瓣：http://pypi.douban.com/simple/
+华为：https://repo.huaweicloud.com/repository/pypi/simple/
+腾讯：http://mirrors.cloud.tencent.com/pypi/simple
+网易：https://mirrors.163.com/pypi/simple/
+...
+```
