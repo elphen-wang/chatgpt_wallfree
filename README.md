@@ -147,6 +147,6 @@ server {
 ```
 ## Star History 
 <a name="star-history"></a>
-<a href="https://github.com/elphen-wang/chatgpt_wallfree/stargazerss">
+<a href="https://github.com/elphen-wang/chatgpt_wallfree/stargazers">
         <img width="500" alt="Star History Chart" src="https://api.star-history.com/svg?repos=elphen-wang/chatgpt_wallfree&type=Date">
 </a> 
