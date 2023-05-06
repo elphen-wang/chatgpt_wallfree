@@ -129,5 +129,5 @@ server {
 + ChatGPT Academic之前介绍过[huggingface](https://huggingface.co)，可以省去部署ChatGPT Academic和翻墙烦恼。不知何故，binary-husky现在移除了这一部分介绍，但是huggingface目前仍然有人在持续更新ChatGPT Academic的部署。不过，huggingface的缺点是API key需要使用前输入一次；有的用户可能忘记看提示，没有复制一份space导致API key有泄露的风险。
 + 什么？没说怎么白嫖和怎么（低成本）获取API key码？
   + 白嫖ChatPGT，github有很多用户搭建了免费体验版网站，可自行搜索。但碍于经济性的原因，用爱发电不会持久，可能需要打一枪换一个阵地。大家可以找一些研究单位或大学搭建的面向公众的ChatGPT门户，可能比较持久，但应该比较少。
-  + API key现在是收费模式，且注册和缴费有一点门槛或不便，但不妨碍“拼车上路”。我觉得这是最经济且最门槛最低获取API key的方式。github中已经有一些用户已经发布拼车邀请，可自行搜索。
+  + API key现在是收费模式，且注册和缴费有一点门槛或不便，但不妨碍“拼车上路”。我觉得这是最经济且门槛最低获取API key的方式。github中已经有一些用户已经发布拼车邀请，可自行搜索。
   + 如果有一个豪（土豪的“毫”）气且义气（愿意分享API key）的朋友，那么也就没有这些烦恼了。
