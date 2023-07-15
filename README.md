@@ -145,10 +145,11 @@ server {
 网易：https://mirrors.163.com/pypi/simple/
 ...
 ```
++ 本人[FreeAI](https://github.com/elphen-wang/FreeAI)项目可实现对ChatGPT Academic免科学上网和免费使用，欢迎大家移步观看。
 
 ## Star History 
 <a name="star-history"></a>
 <a href="https://github.com/elphen-wang/chatgpt_wallfree/stargazers">
-        <img width="500" alt="Star History Chart" src="https://api.star-history.com/svg?repos=elphen-wang/chatgpt_wallfree&type=Date">
+        <img width="500" alt="Star History Chart" src="https://api.star-history.com/svg?repos=elphen-wang/chatgpt_wallfree&type=Date"/>
 </a> 
 
