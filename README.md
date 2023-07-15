@@ -4,7 +4,7 @@ ChatGPT无疑是提高生产力的重要工具，也可以是科研的好帮手�
 （2）**<font color=red>需要科学上网</font>**。即通俗说法中的“翻墙”。虽然，搞科研的人使用科学上网并不罕见，但是部署到境内个人设备，总归有被检测到的风险。
 <font color=blue>本教程旨在缓解或解决以上两点痛点需求，适合个人和课题组生产环境。</font>
 
-**本人[FreeAI](https://github.com/elphen-wang/FreeAI)项目可实现对ChatGPT Academic免科学上网和免费使用，欢迎大家移步观看。**
+**2023-07-15最新：本人[FreeAI](https://github.com/elphen-wang/FreeAI)项目可实现对ChatGPT Academic免科学上网和免费使用，欢迎大家移步观看。**
   
 **本教程参考了以下高手（大佬）的智慧成果，在此先respect和鸣谢！如果喜欢他们项目和本教程，请不吝分别给一个Star，谢谢！**
 + [binary-husky的《gpt_academic》](https://github.com/binary-husky/gpt_academic), 本教程就是解决就是它需翻墙的问题。
